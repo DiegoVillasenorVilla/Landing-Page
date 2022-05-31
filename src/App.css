@@ -1,0 +1,345 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: #F2F2F2;*/
+  background-image: url(./assets/bg-main-desktop.png);
+  /*height: 100vh;
+  width: 100vw;*/
+  /*height: 1832px;*/
+  height: auto;
+  /*width: 1440px;*/
+}
+
+/*.bg-image{
+  display: flex;
+  position: absolute;
+  object-fit: contain;
+  z-index: 1
+  height: 100%;
+  width: 100%;
+}*/
+
+.logo-image {
+  position: absolute;
+  z-index: 2;
+  /*margin-top: 5px ;*/
+  left: 149px;
+  top: 32px;
+}
+
+.pattern-one {
+  display: flex;
+  position: absolute;
+  left: 1030px;
+  top: -40px;
+}
+
+.title {
+  font-family: "IBM Plex Sans", sans-serif;
+  position: absolute;
+  width: 1015px;
+  height: 176px;
+  left: 165px;
+  top: 221px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  color: #191826;
+}
+
+.paragraph {
+  position: absolute;
+  width: 825px;
+  height: 102px;
+  left: 164.5px;
+  top: 437px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  color: #191826;
+  padding-top: 40px;
+}
+
+.background-container {
+  background: #191826;
+  width: 1110px;
+  height: 600px;
+  border-radius: 12px;
+  position: absolute;
+  left: 165px;
+  top: 860px;
+}
+
+.pattern-second {
+  position: absolute;
+  bottom: 160px;
+  left: 336px;
+  right: 365px;
+  z-index: 1;
+}
+
+.phone-image {
+  position: absolute;
+  width: 312px;
+  height: 642px;
+  left: 102px;
+  top: -194px;
+  bottom: 188px;
+  z-index: 2;
+}
+
+.superior-container {
+  position: absolute;
+  z-index: 3;
+  background: #fa7453;
+  border-radius: 12px;
+  width: 446px;
+  height: 625px;
+  right: 97px;
+  top: 89px;
+  bottom: 258px;
+}
+
+.title-container {
+  position: absolute;
+  width: 333px;
+  height: 52px;
+  right: 57px;
+  left: 56px;
+  top: 45px;
+  bottom: 514px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height, or 130% */
+  color: #fcfaf9;
+}
+
+.p-container {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  /* or 170% */
+  color: #fcfaf9;
+  top: 133px;
+  bottom: 580px;
+  left: 56px;
+}
+
+.price {
+  position: absolute;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  color: #fcfaf9;
+  top: 342px;
+  left: 56px;
+}
+
+.month {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+  letter-spacing: -0.2px;
+  color: #fcfaf9;
+  top: 351px;
+  left: 151px;
+}
+
+.apple-icon {
+  position: absolute;
+  right: 230px;
+  top: 20px;
+}
+
+.apple-button {
+  position: absolute;
+  top: 440px;
+  left: 56px;
+  border-radius: 12px;
+  background: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #fcfaf9;
+  width: 333px;
+  height: 61px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  text-align: center;
+  letter-spacing: -0.18px;
+}
+
+.apple-button:hover {
+  background: #66e2dc;
+  cursor: pointer;
+}
+
+.android-icon {
+  position: absolute;
+  right: 250px;
+  top: 20px;
+}
+
+.android-button {
+  position: absolute;
+  top: 517px;
+  left: 56px;
+  border-radius: 12px;
+  background: #fcfaf9;
+  color: #191826;
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 333px;
+  height: 61px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  text-align: center;
+  letter-spacing: -0.18px;
+}
+
+.android-button:hover {
+  background: #ffb964;
+  cursor: pointer;
+}
+
+.footer-container {
+  position: absolute;
+  top: 1600px;
+  width: 1000px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 146px;
+  height: 32px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.rights {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 70px;
+  margin-bottom: 50px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #191826;
+}
+
+.facebook-logo {
+  width: 20px;
+  height: 20px;
+  padding-left: 200px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.instagram-logo {
+  width: 20px;
+  height: 20px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.twitter-logo {
+  width: 20px;
+  height: 20px;
+  padding-top: 20px;
+}
+
+.facebook-logo:hover,
+.instagram-logo:hover,
+.twitter-logo:hover {
+  background: #fa7453;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 48px;
+    /* or 120% */
+
+    letter-spacing: -0.454545px;
+
+    color: #191826;
+  }
+  .logo-image {
+    position: absolute;
+    width: 146.09px;
+    height: 32px;
+    left: 24.15px;
+    top: 39.99px;
+  }
+  .paragraph {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 162% */
+    color: #191826;
+  }
+  .phone-image {
+    position: absolute;
+    width: 208.97px;
+    height: 430px;
+    left: 80.67px;
+    top: 524px;
+  }
+  .background-container {
+    position: absolute;
+    width: 375px;
+    height: 600px;
+    left: 0px;
+    top: 622px;
+    background: #191826;
+    border-radius: 12px;
+  }
+
+  .superior-container {
+    position: absolute;
+    width: 375px;
+    height: 546px;
+    left: 0px;
+    top: 1002px;
+
+    background: #fa7453;
+    border-radius: 12px;
+  }
+}
